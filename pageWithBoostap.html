@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name ="viewport" content="width=device-width">
+  <title>Search Your Flight</title>
+    <!-- necessary scripts for the dialog -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
+    <script src = "js/main.js"></script>
+</head>
+<body>
+    <h1 onmouseenter = "highlightItem(this)" onmouseleave = "resetToIntailStyle(this)">My Header</h1>    
+    <a id = "link1" href = "http://courseweb.cs.tu.ac.th">My Link</a>
+    <p id = "time">Current Time:</p>
+    <ul id = "newList">
+    <li onmouseenter = "highlightItem(this)" onmouseleave = "resetToIntailStyle(this)">Data1</li>
+    <li>Data 2</li>
+    </ul>
+     <button onClick = "changeText(document.getElementById('time),new Date() )" > Google </button>
+     
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.p {
+    background: blue;
+    color:  white;
+    font-family: "verdana";
+    font-size: 50px;
+}
+.fullscreen-block{
+    background: blue;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
